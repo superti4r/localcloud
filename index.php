@@ -27,7 +27,7 @@ $used_space_gb = round($used_space / 1024 / 1024 / 1024, 2);
   <div class="container mt-5">
     <h1 class="text-center mb-4">Local Cloud v1</h1>
     <div class="alert alert-info text-center">
-      Akses secara lokal: <strong>http://<?php echo $ip_address; ?>/sharingweb</strong>
+      Akses secara lokal: <strong>http://<?php echo $ip_address; ?>/localcloud</strong>
     </div>
     <div class="alert alert-success text-center">
       Penyimpanan tersedia: <strong><?php echo $free_space_gb; ?> GB dari <?php echo $total_space_gb; ?> GB</strong>
